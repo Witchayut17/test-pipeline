@@ -16,4 +16,8 @@ describe('Calculator', () => {
     test('divides 10 / 2 to equal 5', () => {
         expect(divide(10, 2)).toBe(5);
     });
+
+    test('add -10 + -4 to equal -14', () =>{
+        expect(add(-10,-4).toBe(-14));
+    });
 });
