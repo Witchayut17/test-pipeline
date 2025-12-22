@@ -18,6 +18,10 @@ describe('Calculator', () => {
     });
 
     test('add -10 + -4 to equal -14', () =>{
-        expect(add(-10,-4).toBe(-14));
+        expect(add(-10,-4)).toBe(-14);
+    });
+
+    test('add 10 + 4 to equal 14', () =>{
+        expect(add(10, 4)).toBe(14);
     });
 });
